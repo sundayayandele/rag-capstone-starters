@@ -1,0 +1,15 @@
+{"question": "How long do we keep client records after account closure?", "source_ids": ["data-retention"], "answer_keywords": ["7 years"]}
+{"question": "How soon must a security incident be reported to the Security Operations Centre?", "source_ids": ["incident-response"], "answer_keywords": ["1 hour"]}
+{"question": "How often are vendor contracts reviewed?", "source_ids": ["vendor-onboarding"], "answer_keywords": ["annually"]}
+{"question": "How long are backups retained?", "source_ids": ["data-retention"], "answer_keywords": ["90 days"]}
+{"question": "What is the deadline for filing a SAR?", "source_ids": ["aml-reporting"], "answer_keywords": ["5 working days"]}
+{"question": "When must KYC checks be completed?", "source_ids": ["kyc-onboarding"], "answer_keywords": ["before an account is opened"]}
+{"question": "How often are PEP customers re-reviewed?", "source_ids": ["kyc-onboarding"], "answer_keywords": ["12 months"]}
+{"question": "How fast must the DPO be told about a breach?", "source_ids": ["incident-response"], "answer_keywords": ["24 hours"]}
+{"question": "How often are PAM accounts reviewed?", "source_ids": ["access-review"], "answer_keywords": ["monthly"]}
+{"question": "Within what time must a DSAR be answered?", "source_ids": ["ext-gdpr-guidance"], "answer_keywords": ["one month"]}
+{"question": "What is the initial notification time for a major ICT incident?", "source_ids": ["ext-ict-incident-guidance"], "answer_keywords": ["4 hours"]}
+{"question": "Must consent banners offer a reject option?", "source_ids": ["ext-cookie-guidance"], "answer_keywords": ["reject option"]}
+{"question": "What is our policy on office plants?", "source_ids": [], "answer_keywords": []}
+{"question": "Who won the football match yesterday?", "source_ids": [], "answer_keywords": []}
+{"question": "What is on the cafeteria menu?", "source_ids": [], "answer_keywords": []}

@@ -1,0 +1,24 @@
+{"question": "How many days of annual leave do full-time employees get?", "source_ids": ["leave-policy"], "answer_keywords": ["25"]}
+{"question": "How many unused leave days can I carry over?", "source_ids": ["leave-policy"], "answer_keywords": ["5"]}
+{"question": "How far in advance must I request leave?", "source_ids": ["leave-policy"], "answer_keywords": ["10 working days"]}
+{"question": "How many sick days are paid each year?", "source_ids": ["leave-policy"], "answer_keywords": ["10 days"]}
+{"question": "When do I need a medical certificate?", "source_ids": ["leave-policy"], "answer_keywords": ["3 consecutive"]}
+{"question": "How long is paid parental leave for primary carers?", "source_ids": ["leave-policy"], "answer_keywords": ["16 weeks"]}
+{"question": "What is the hotel cap per night in standard cities?", "source_ids": ["expenses"], "answer_keywords": ["150"]}
+{"question": "What is the daily meal allowance when travelling?", "source_ids": ["expenses"], "answer_keywords": ["60 euros"]}
+{"question": "Within how many days must I submit an expense claim?", "source_ids": ["expenses"], "answer_keywords": ["30 days"]}
+{"question": "How much is the home office allowance?", "source_ids": ["expenses"], "answer_keywords": ["300"]}
+{"question": "How many days a week can I work remotely?", "source_ids": ["remote-work"], "answer_keywords": ["3 days"]}
+{"question": "What are the core hours?", "source_ids": ["remote-work"], "answer_keywords": ["10:00", "15:00"]}
+{"question": "How many days can I work from abroad per year?", "source_ids": ["remote-work"], "answer_keywords": ["20 days"]}
+{"question": "What is the limit for gifts from suppliers?", "source_ids": ["conduct"], "answer_keywords": ["50 euros"]}
+{"question": "Does the company contribute to my pension?", "source_ids": ["benefits"], "answer_keywords": ["6 percent"]}
+{"question": "How big is the yearly learning budget?", "source_ids": ["benefits"], "answer_keywords": ["1,200"]}
+{"question": "How long must passwords be?", "source_ids": ["it-security"], "answer_keywords": ["14 characters"]}
+{"question": "How fast must I report a lost laptop?", "source_ids": ["it-security"], "answer_keywords": ["2 hours"]}
+{"question": "What is the policy on pet insurance?", "source_ids": [], "answer_keywords": []}
+{"question": "How much is the annual bonus for managers?", "source_ids": [], "answer_keywords": []}
+{"question": "Which cafeteria vendor does the office use?", "source_ids": [], "answer_keywords": []}
+{"question": "What is the sabbatical policy?", "source_ids": [], "answer_keywords": []}
+{"question": "How many shares do employees receive?", "source_ids": [], "answer_keywords": []}
+{"question": "What is the dress code for client meetings?", "source_ids": [], "answer_keywords": []}

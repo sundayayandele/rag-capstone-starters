@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rag-capstone-starters"
+version = "0.1.0"
+description = "Runnable starters for five RAG capstone MVPs (01.1, 02.1, 03.1, 09.1, 12.1) with evaluation and CI"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7", "pyyaml>=6"]
+ml = ["sentence-transformers>=2.7"]   # optional neural embedder and cross-encoder reranker
+
+[project.scripts]
+ragkit = "ragkit.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["ragkit*", "projects*"]
+
+[tool.setuptools.package-data]
+"projects" = ["**/*.md", "**/*.jsonl", "**/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

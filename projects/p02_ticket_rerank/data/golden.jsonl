@@ -1,0 +1,26 @@
+{"question": "My VPN client on Windows shows error 809", "source_ids": ["vpn-windows"], "answer_keywords": ["firewall"]}
+{"question": "VPN stuck on connecting after macOS update", "source_ids": ["vpn-mac"], "answer_keywords": ["system extension"]}
+{"question": "I forgot my password, how do I reset it?", "source_ids": ["password-reset"], "answer_keywords": ["authenticator"]}
+{"question": "I lost my phone and cannot approve sign-in requests", "source_ids": ["mfa-reset"], "answer_keywords": ["service desk"]}
+{"question": "Printer is offline on my Windows laptop", "source_ids": ["printer-windows"], "answer_keywords": ["spooler"]}
+{"question": "Printer is offline on my Mac", "source_ids": ["printer-mac"], "answer_keywords": ["IP address"]}
+{"question": "Outlook says disconnected and email is delayed", "source_ids": ["outlook-sync"], "answer_keywords": ["Work Offline"]}
+{"question": "Which Wi-Fi network should employees use?", "source_ids": ["wifi"], "answer_keywords": ["Corp-Secure"]}
+{"question": "My computer is very slow", "source_ids": ["laptop-slow"], "answer_keywords": ["disk space"]}
+{"question": "How do I get a paid software licence?", "source_ids": ["software-request"], "answer_keywords": ["manager approval"]}
+{"question": "Access denied on the team shared drive", "source_ids": ["shared-drive"], "answer_keywords": ["access request"]}
+{"question": "No sound in Teams meetings and my microphone is not working", "source_ids": ["teams-audio"], "answer_keywords": ["microphone"]}
+{"question": "When do passwords expire?", "source_ids": ["password-reset"], "answer_keywords": ["180 days"]}
+{"question": "Do I need the VPN to open network shares from home?", "source_ids": ["shared-drive"], "answer_keywords": ["VPN"]}
+{"question": "Mac cannot print, printer unavailable", "source_ids": ["printer-mac"], "answer_keywords": ["System Settings"]}
+{"question": "Windows laptop cannot connect to the company VPN", "source_ids": ["vpn-windows"], "answer_keywords": ["firewall"]}
+{"question": "VPN will not connect on my Mac since the update", "source_ids": ["vpn-mac"], "answer_keywords": ["system extension"]}
+{"question": "Authenticator app not working after losing my phone", "source_ids": ["mfa-reset"], "answer_keywords": ["service desk"]}
+{"question": "Windows printer says offline", "source_ids": ["printer-windows"], "answer_keywords": ["spooler"]}
+{"question": "Web pages are slow when I am on the VPN", "source_ids": ["vpn-split-tunnel"], "answer_keywords": ["split tunnelling"]}
+{"question": "How does a new starter get VPN access?", "source_ids": ["vpn-access-request"], "answer_keywords": ["service portal"]}
+{"question": "How do I add a new phone for multi-factor sign-in?", "source_ids": ["mfa-new-device"], "answer_keywords": ["QR code"]}
+{"question": "How do I install the latest macOS?", "source_ids": ["mac-update"], "answer_keywords": ["IT confirms"]}
+{"question": "How do I add a printer on floor 3?", "source_ids": ["printer-add"], "answer_keywords": ["Printers and scanners"]}
+{"question": "How do I order a standing desk?", "source_ids": [], "answer_keywords": []}
+{"question": "What is the parking policy at head office?", "source_ids": [], "answer_keywords": []}
