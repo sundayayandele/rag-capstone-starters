@@ -17,7 +17,7 @@ Design, rationale, plan, MVP spec, testing plan and rollout guide for each proje
 ```bash
 pip install -e ".[dev]"
 python -m ragkit eval --out results --site site   # run all five, write results/RESULTS.md and site/index.html
-pytest -q                                         # 46 tests
+pytest -q                                         # 47 tests
 python -m ragkit ask p01 "How many days of annual leave do I get?"
 python -m ragkit ask p12 "Top 3 customers by revenue"
 ```
@@ -55,10 +55,12 @@ projects/
   p03_part_finder/      data/parts.jsonl
   p09_compliance_crag/  data/corpus, data/fallback, data/glossary.json
   p12_nl_analytics/     db.py (sample DB + validated read-only executor), generator.py, pipeline.py
-tests/                  46 tests: library, answers, project gates, CRAG, SQL safety, workflow files
+tests/                  47 tests: library, answers, project gates, CRAG, SQL safety, workflow files
 .github/workflows/      ci.yml, claude.yml
 docs/                   TERMUX.md, EVALUATION.md
 CLAUDE.md               instructions for Claude Code
+SKILLS.md               playbooks; the first five are installed as Claude Code skills in .claude/skills/
+.claude/skills/         run-eval, add-golden-questions, add-project, debug-gate-failure, swap-real-models
 ```
 
 ## Evaluation and the regression gate

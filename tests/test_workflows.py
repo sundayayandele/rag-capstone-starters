@@ -23,3 +23,14 @@ def test_claude_workflow_shape():
     d = _load("claude.yml")
     steps = " ".join(str(s) for s in d["jobs"]["claude"]["steps"])
     assert "anthropics/claude-code-action" in steps and "ANTHROPIC_API_KEY" in steps
+
+
+def test_claude_skills_are_well_formed():
+    skills = Path(__file__).resolve().parent.parent / ".claude" / "skills"
+    dirs = [d for d in skills.iterdir() if d.is_dir()]
+    assert len(dirs) >= 5
+    for d in dirs:
+        text = (d / "SKILL.md").read_text()
+        assert text.startswith("---\n")
+        front = yaml.safe_load(text.split("---")[1])
+        assert front["name"] == d.name and len(front["description"]) > 40
