@@ -17,7 +17,7 @@ Design, rationale, plan, MVP spec, testing plan and rollout guide for each proje
 ```bash
 pip install -e ".[dev]"
 python -m ragkit eval --out results --site site   # run all five, write results/RESULTS.md and site/index.html
-pytest -q                                         # 47 tests
+pytest -q                                         # 48 tests
 python -m ragkit ask p01 "How many days of annual leave do I get?"
 python -m ragkit ask p12 "Top 3 customers by revenue"
 ```
@@ -55,7 +55,7 @@ projects/
   p03_part_finder/      data/parts.jsonl
   p09_compliance_crag/  data/corpus, data/fallback, data/glossary.json
   p12_nl_analytics/     db.py (sample DB + validated read-only executor), generator.py, pipeline.py
-tests/                  47 tests: library, answers, project gates, CRAG, SQL safety, workflow files
+tests/                  48 tests: library, answers, project gates, CRAG, SQL safety, workflow files
 .github/workflows/      ci.yml, claude.yml
 docs/                   TERMUX.md, EVALUATION.md
 CLAUDE.md               instructions for Claude Code
@@ -69,7 +69,7 @@ SKILLS.md               playbooks; the first five are installed as Claude Code s
 
 ## CI
 
-`.github/workflows/ci.yml` on every push and pull request: install, run pytest, run the evaluation and gate, write the results table to the job summary, upload `results/` and `site/` as artifacts. On `main` it deploys the results page to GitHub Pages (enable **Settings, Pages, Source: GitHub Actions** once). The manual run accepts `llm=github` to evaluate with GitHub Models using the built-in token (rate-limited; the job has `models: read`) or `llm=anthropic` with the `ANTHROPIC_API_KEY` secret.
+`.github/workflows/ci.yml` on every push and pull request: install, run pytest, run the evaluation and gate, write the results table to the job summary, upload `results/` and `site/` as artifacts. On `main` it deploys the results page to GitHub Pages (enable **Settings, Pages, Source: GitHub Actions** once). A manual run with **run_ml** ticked also starts the `evaluate-ml` job: CPU-only torch, sentence-transformers embeddings and a cross-encoder reranker, with models cached between runs. It is informational (it does not block merges) and its results appear in the job summary and the `rag-results-ml` artifact. The manual run also accepts `llm=github` to evaluate with GitHub Models using the built-in token (rate-limited; the job has `models: read`) or `llm=anthropic` with the `ANTHROPIC_API_KEY` secret.
 
 ## Claude Code on GitHub
 
